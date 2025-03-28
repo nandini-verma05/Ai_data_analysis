@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-shadow-neon {
+    text-shadow: 0 0 5px #3b82f6, 0 0 10px #3b82f6, 0 0 15px #3b82f6;
+  }
+  
+  .shadow-neon-blue {
+    box-shadow: 0 0 5px #3b82f6, 0 0 10px #3b82f6;
+  }
+}
+;
